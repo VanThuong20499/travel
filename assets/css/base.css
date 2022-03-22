@@ -1,0 +1,56 @@
+:root{
+    --main-color: #ba71da;
+    --yellow: #ffd205;
+    --red: #f76570;
+    --violet: #ba71da;
+}
+.grid{
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.grid-colum-3{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 33.33333%;
+}
+
+.background-yellow{
+    background-color: var(--yellow);
+}
+
+.background-red{
+    background-color: var(--red);
+}
+
+.background-violet{
+    background-color: var(--violet);
+}
+
+.gardient-yellow{
+    background-image: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);
+}
+
+.gardient-red{
+    background: linear-gradient(to right, #f76570 0%, #f78d65 100%);
+}
+
+.gardient-violet{
+    background: linear-gradient(to right, #ba71da 0%, #da717b 100%);
+}
+
+.open{
+    display: block;
+}
+
+#open{
+    display: block;
+}
