@@ -54,3 +54,7 @@
 #open{
     display: block;
 }
+
+.animation{
+    transform: translateX(0);
+}

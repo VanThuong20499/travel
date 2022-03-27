@@ -984,17 +984,9 @@
     padding: 24px;
     overflow-y: auto;
     height: 100vh;
-    display: none;
-    animation: rightBtn linear 0.5s;
-}
-
-@keyframes rightBtn{
-    0%{
-        right: -362px;
-    }
-    100%{
-        right: 0;
-    }
+    display: block;
+    transform: translateX(100%);
+    transition: transform linear 0.5s;
 }
 
 .menu-item-header{

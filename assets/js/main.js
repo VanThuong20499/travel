@@ -26,9 +26,9 @@ function repeat(){
 repeat()
 
 menuItemBtn.addEventListener('click', function(){
-    menuItem.classList.add('open');
+    menuItem.classList.add('animation');
 })
 
 closeBtn.addEventListener('click', function(){
-    menuItem.classList.remove('open');
+    menuItem.classList.remove('animation');
 })
